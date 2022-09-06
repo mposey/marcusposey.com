@@ -2,7 +2,7 @@
 @import "../../../assets/scss/mixins";
 
 .menu {
-  @include margin-bottom(1);
+  @include margin-bottom(0.5);
 
   .list {
     list-style: none;
@@ -28,6 +28,7 @@
         &.active {
           border-bottom: 1px solid $color-base;
           color: $color-base;
+          font-weight: bold;
         }
       }
     }
