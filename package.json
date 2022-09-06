@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-lumen",
-  "version": "1.1.359",
-  "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
+  "name": "marcusposey.co",
+  "version": "1.0.0",
+  "description": "My personal website + blog. Built with Gatsby.js.",
   "keywords": [
     "gatsby",
     "graphql",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/mposey/marcusposey.co.git"
   },
   "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Marcus Posey <mep296@cornell.edu>",
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
