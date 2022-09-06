@@ -1,46 +1,34 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
+  "title": "marcusposey.co",
+  "url": "https://marcusposey.co",
+  "subtitle": "Undergraduate student at Cornell University.",
+  "copyright": "© Marcus Posey 2022",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "Blog",
       "path": "/"
     },
     {
-      "label": "About me",
-      "path": "/pages/about"
+      "label": "About",
+      "path": "/about"
     },
     {
-      "label": "Contact me",
-      "path": "/pages/contacts"
+      "label": "Tags",
+      "path": "/tags"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Marcus Posey",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Undergraduate student at Cornell University.",
     "contacts": {
-      "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "line": "",
-      "weibo": "",
-      "gitlab": "",
-      "medium": "",
-      "youtube": "",
-      "codepen": "",
-      "soundcloud": ""
+      "github": "mposey",
+      "instagram": "marcusposey_",
+      "email": "mep296@cornell.edu"
     }
   }
 }
