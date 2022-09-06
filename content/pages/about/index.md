@@ -1,6 +1,7 @@
 ---
 title: "About me"
 template: "page"
+slug: "/about"
 socialImage: "/notebook.jpg"
 ---
 
