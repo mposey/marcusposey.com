@@ -1,7 +1,7 @@
 @use "sass:math";
 @use "sass:color";
 
-$color-base: hsl(0, 0%, 13%);
+$color-base: hsl(0, 0%, 0%);
 $color-primary: hsl(220, 100%, 68%);
 $color-secondary: hsl(31, 92%, 62%);
 
@@ -9,6 +9,8 @@ $color-white: hsl(0, 0%, 100%);
 $color-gray: color.adjust($color-base, $lightness: 40%);
 $color-gray-border: color.adjust($color-base, $lightness: 77%);
 $color-gray-bg: color.adjust($color-base, $lightness: 79%);
+
+$border-color: 1px solid rgba(0, 0, 0, 0.1);
 
 $typographic-font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
 
@@ -21,6 +23,7 @@ $typographic-base-line-height: 1.625;
 $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-primary;
 $typographic-link-s-font-color: $color-secondary;
+$typographic-link-hover-color: #0085A1;
 
 $typographic-leading: math.round(16 * math.div($typographic-root-font-size, 100) * $typographic-base-line-height);
 
