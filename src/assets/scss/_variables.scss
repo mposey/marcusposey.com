@@ -3,7 +3,7 @@
 
 $color-base: hsl(0, 0%, 0%);
 $color-primary: hsl(220, 100%, 68%);
-$color-secondary: hsl(31, 92%, 62%);
+$color-secondary: rgba(15,46,61,.88);
 
 $color-white: hsl(0, 0%, 100%);
 $color-gray: color.adjust($color-base, $lightness: 40%);

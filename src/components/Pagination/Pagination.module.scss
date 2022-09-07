@@ -18,7 +18,8 @@
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        border-bottom: none;
+        color: $typographic-link-hover-color;
       }
 
       &.disable {
@@ -39,7 +40,8 @@
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        border-bottom: none;
+        color: $typographic-link-hover-color;
       }
 
       &.disable {
