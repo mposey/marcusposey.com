@@ -21,8 +21,8 @@
 
         &:hover,
         &:focus {
-          border-bottom: 1px solid $color-primary;
-          color: $color-primary;
+          border-bottom: 1px solid $typographic-link-hover-color;
+          color: $typographic-link-hover-color;
         }
 
         &.active {
