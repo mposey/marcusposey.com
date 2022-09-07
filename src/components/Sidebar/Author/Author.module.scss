@@ -2,6 +2,13 @@
 @import "../../../assets/scss/mixins";
 
 .author {
+  a {
+    &:hover,
+    &:focus {
+      border-bottom: none;
+    }
+  }
+
   .photo {
     background-clip: padding-box;
     border-radius: 50%;
@@ -19,11 +26,6 @@
 
     .link {
       color: $color-base;
-
-      &:hover,
-      &:focus {
-        color: $color-base;
-      }
     }
   }
 
